@@ -6,9 +6,13 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
+Bnw = bnwPage;
 
   constructor(public navCtrl: NavController) {
 
   }
-
+  bnw()
+  {
+    this.navCtrl.push(this.Bnw);
+  }
 }
