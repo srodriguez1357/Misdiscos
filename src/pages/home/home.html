@@ -10,13 +10,13 @@
   <ion-card style="background-color:#36558F">
     <ion-row>
       <ion-col>
-        <img src="../assets/bnw.jpg">
+        <img src="../assets/bnw.jpg" (click) = "bnw()">
       </ion-col>
-    
+      
       <ion-col>
     <ion-card-content>
-      <h3 style=" font-weight: bold">Brave New World</h3>
-      <h4> Iron Maiden</h4>
+      <h3 style=" font-weight: bold" (click) = im()>Iron Maiden</h3>
+      <h4 (click)="bnwt()"> Brave New World</h4>
       <h5>2000</h5>
       <h6>
         <ion-icon name="star"></ion-icon>
