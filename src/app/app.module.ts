@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { BnwPage } from '../pages/bnw/bnw';
 import { IronmaidenPage } from '../pages/ironmaiden/ironmaiden';
 import { ItracksPage } from '../pages/itracks/itracks';
+import { BnwresPage } from '../pages/bnwres/bnwres';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,8 @@ import { ItracksPage } from '../pages/itracks/itracks';
     BnwPage,
     IronmaidenPage,
     ItracksPage,
+    BnwresPage,
+
 
   ],
   providers: [
