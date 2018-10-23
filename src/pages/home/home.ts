@@ -12,6 +12,10 @@ import { AaPage } from '../aa/aa';
 import { JmsPage } from '../jms/jms';
 import { JmsreviewPage } from '../jmsreview/jmsreview';
 import { JmstracksPage } from '../jmstracks/jmstracks';
+import { MPage } from '../m/m';
+import { RtlPage } from '../rtl/rtl';
+import { ReviewPage } from '../review/review';
+import { RtltracksPage } from '../rtltracks/rtltracks';
 
 @Component({
   selector: 'page-home',
@@ -34,6 +38,10 @@ J = JmsPage;
 jrev = JmsreviewPage;
 jtracks = JmstracksPage;
 
+Met = MPage;
+Ride = RtlPage;
+RideR = ReviewPage;
+RideT = RtltracksPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -92,5 +100,25 @@ jtracks = JmstracksPage;
   Jtracks()
   {
     this.navCtrl.push(this.jtracks);
+  }
+
+  rtl()
+  {
+    this.navCtrl.push(this.Ride);
+
+  }
+  m()
+  {
+    this.navCtrl.push(this.Met);
+
+  }
+  review()
+  {
+
+    this.navCtrl.push(this.RideR);
+  }
+  Rtrackkss()
+  {
+    this.navCtrl.push(this.RideT);
   }
 }
